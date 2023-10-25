@@ -3,7 +3,6 @@ import csv
 import cloudscraper
 from bs4 import BeautifulSoup
 
-#requests
 #cloudfire protection
 scraper = cloudscraper.create_scraper(delay=10, browser='chrome')
 l=[]
